@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mapper device="NANOPAD2" author="DJPanda" version="850" date="2025-04-04">
-	<map value="SC1_PAD1" action="pad_page 1 &quot;manual Loop&quot; &amp;  loop 4" />
-	<map value="SC1_PAD2" action="pad_page 1 &quot;manual Loop&quot; &amp; loop 2" />
-	<map value="SC1_PAD3" action="pad_page 1 &quot;manual Loop&quot; &amp; loop 1" />
-	<map value="SC1_PAD4" action="pad_page 1 &quot;manual Loop&quot; &amp; loop 0.5" />
-	<map value="SC1_PAD5" action="pad_page 1 &quot;manual Loop&quot; &amp; loop_roll 4" />
-	<map value="SC1_PAD6" action="pad_page 1 &quot;manual Loop&quot; &amp; loop_roll 2" />
-	<map value="SC1_PAD7" action="pad_page 1 &quot;manual Loop&quot; &amp; loop_roll 1" />
-	<map value="SC1_PAD8" action="pad_page 1 &quot;manual Loop&quot; &amp; loop_roll 0.5" />
-	<map value="SC2_PAD1" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot; &amp; sampler_pad 1" />
+<mapper device="NANOPAD2" author="DJPanda" version="850" date="2025-05-13">
+	<map value="SC1_PAD1" action="pad_page 1 &quot;manual Loop&quot; &amp;  loop 0.5" />
+	<map value="SC1_PAD2" action="pad_page 1 &quot;manual Loop&quot; &amp; loop 1" />
+	<map value="SC1_PAD3" action="pad_page 1 &quot;manual Loop&quot; &amp; loop 2" />
+	<map value="SC1_PAD4" action="pad_page 1 &quot;manual Loop&quot; &amp; loop 4" />
+	<map value="SC1_PAD5" action="pad_page 1 &quot;manual Loop&quot; &amp; loop_move +2" />
+	<map value="SC1_PAD6" action="pad_page 1 &quot;manual Loop&quot; &amp; loop_half" />
+	<map value="SC1_PAD7" action="pad_page 1 &quot;manual Loop&quot; &amp; loop_double" />
+	<map value="SC1_PAD8" action="pad_page 1 &quot;manual Loop&quot; &amp; loop_exit" />
+	<map value="SC2_PAD1" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot;  &amp; sampler_pad 1 " />
 	<map value="SC2_PAD2" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot; &amp; sampler_pad 2" />
 	<map value="SC2_PAD3" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot; &amp; sampler_pad 3" />
 	<map value="SC2_PAD4" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot; &amp; sampler_pad 4" />
 	<map value="SC2_PAD5" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot; &amp; sampler_pad 5" />
 	<map value="SC2_PAD6" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot; &amp; sampler_pad 6" />
 	<map value="SC2_PAD7" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot; &amp; sampler_pad 7" />
-	<map value="SC2_PAD8" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot; &amp; sampler_pad 8" />
-	<map value="SC3_PAD1" action="pad_page 3 &quot;stems&quot; &amp; stem_pad isolate &apos;vocal&apos;" />
+	<map value="SC2_PAD8" action="pad_page 2 &quot;sampler&quot; &amp; sampler_bank &quot;per-song&quot; &amp; sampler_pad_shift 1 &amp; sampler_pad_shift 2 &amp; sampler_pad_shift 3 &amp; sampler_pad_shift 4 &amp; sampler_pad_shift 5 &amp; sampler_pad_shift 6 &amp; sampler_pad_shift 7 &amp; sampler_pad_shift 8" />
+	<map value="SC3_PAD1" action="pad_page 3 &quot;stems&quot; &amp; stem_pad &apos;vocal&apos;" />
 	<map value="SC3_PAD2" action="pad_page 3 &quot;stems&quot; &amp; stem_pad &apos;instru&apos;" />
 	<map value="SC3_PAD3" action="pad_page 3 &quot;stems&quot; &amp; stem_pad &apos;bass&apos;" />
-	<map value="SC3_PAD4" action="pad_page 3 &quot;stems&quot; &amp; eq_reset" />
-	<map value="SC3_PAD5" action="pad_page 3 &quot;stems&quot; &amp; eq_reset &amp; stem_pad &apos;vocal&apos;" />
-	<map value="SC3_PAD6" action="pad_page 3 &quot;stems&quot; &amp; stem_pad &apos;kick&apos;" />
-	<map value="SC3_PAD7" action="pad_page 3 &quot;stems&quot; &amp; stem_pad &apos;HiHat&apos;" />
-	<map value="SC3_PAD8" action="eq_reset" />
-	<map value="SC4_PAD1" action="pad_page 4 &quot;slicer&quot; &amp; slicer 1" />
-	<map value="SC4_PAD2" action="pad_page 4 &quot;slicer&quot; &amp; slicer 2" />
-	<map value="SC4_PAD3" action="pad_page 4 &quot;slicer&quot; &amp; slicer 3" />
-	<map value="SC4_PAD4" action="pad_page 4 &quot;slicer&quot; &amp; slicer 4" />
+	<map value="SC3_PAD4" action="pad_page 3 &quot;stems&quot; &amp; eq_reset &amp; stem_pad &apos;Acapella&apos;" />
+	<map value="SC3_PAD5" action="pad_page 3 &quot;stems&quot; &amp; stem_pad &apos;kick&apos;" />
+	<map value="SC3_PAD6" action="pad_page 3 &quot;stems&quot; &amp; stem_pad &apos;hihat&apos;" />
+	<map value="SC3_PAD8" action="pad_page 3 &quot;stems&quot; &amp; stem_pad &apos;vocal&apos;" />
+	<map value="SC4_PAD3" action="pad_page &quot;loop roll&quot; &amp; loop_roll 2" />
+	<map value="SC4_PAD4" action="pad_page &quot;loop roll&quot; &amp; loop_roll 4" />
 	<map value="SC4_PAD5" action="pad_page 4 &quot;slicer&quot; &amp; slicer 5" />
 	<map value="SC4_PAD6" action="pad_page 4 &quot;slicer&quot; &amp; slicer 6" />
 	<map value="SC4_PAD7" action="pad_page 4 &quot;slicer&quot; &amp; slicer 7" />
 	<map value="SC4_PAD8" action="pad_page 4 &quot;slicer&quot; &amp; slicer 8" />
-	<map value="XY_TOUCH" action="loop_roll 4" />
-	<map value="X_AXIS" action="slicer" />
-	<map value="Y_AXIS" action="deck active effect_slider 2" />
+	<map value="SC4_PAD2" action="pad_page &quot;loop roll&quot; &amp; loop_roll 1" />
+	<map value="SC4_PAD1" action="pad_page &quot;loop roll&quot; &amp; loop_roll 0.5" />
+	<map value="X_AXIS" action="
+" />
+	<map value="SC3_PAD7" action="pad_page 3 &quot;stems&quot; &amp; stem_pad &apos;stems fx&apos;" />
 </mapper>
