@@ -1,4 +1,4 @@
-This is the first version of mapping for the Korg nanopad2 in Virtual DJ.
+This is mapping for the Korg nanopad2 in Virtual DJ.
 
 The default mapping that is included with VDJ has an error: Scene 3 Pad 8 code is "effect_select 'FlippinDouble' & effect_active 'FlippinDouble'", it should be "Flippin Double".
 
